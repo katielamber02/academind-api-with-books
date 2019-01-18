@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  background-color: rgb(122, 111, 121);
+}
+.page-container {
+  width: 800px;
+  margin: 10px auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2px + 2vmin);
+  text-align: center;
+  background-color: rgb(243, 235, 237);
+  padding: 20px;
+  position: relative;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.product-list {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.product-list .product-item {
+  padding: 10px 30px;
+  width: 200px;
+}
+ul.top-menu {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  margin: 0;
+}
+ul.top-menu li {
+  display: inline-block;
+}
+
+ul.top-menu li:before {
+  content: "|";
+  margin: 0 4px;
+}
+
+ul.top-menu li:nth-child(1):before {
+  content: "";
+  margin: 0;
+}

@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "I am Groot A",
+      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
+      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
+      "image": "https://calendar.perfplanet.com/2017/animated-gif-without-the-gif",
+      "age": ["0", "+"],
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "I am Groot B",
+      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
+      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
+      "image": "https://calendar.perfplanet.com/2017/animated-gif-without-the-gif",
+      "age": ["0", "+"],
+      "price": 200
+    },
+    {
+      "id": 3,
+      "name": "I am Groot C",
+      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
+      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
+      "image": "https://calendar.perfplanet.com/2017/animated-gif-without-the-gif",
+      "age": ["0", "+"],
+      "price": 300
+    }
+  ]
+}
